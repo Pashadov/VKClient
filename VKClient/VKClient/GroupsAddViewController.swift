@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AddGroupsController: UITableViewController {
+class GroupsAddViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +21,7 @@ class AddGroupsController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
+       
         return 0
     }
 }
